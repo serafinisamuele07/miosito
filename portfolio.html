@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio – Ilenia Sarracino</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-auto">
+                <div class="logo">IS</div>
+            </div>
+
+            <div class="col-auto header-buttons">
+               <a href="#information" class="btn-header">information</a>
+               <a href="#subscribe" class="btn-header">subscribe</a>
+
+
+                <!-- HAMBURGER CORRETTO (UNICO) -->
+                <button class="hamburger" id="hamburger">☰</button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- MENU FULLSCREEN (UNICO) -->
+<div id="menu-overlay" class="menu-overlay">
+    <ul>
+        <li><a href="#chi-sono">Chi sono</a></li>
+        <li><a href="#origini">Origini</a></li>
+        <li><a href="#cosa-studio">Cosa studio</a></li>
+        <li><a href="#progetti">I miei progetti</a></li>
+    </ul>
+</div>
+
+
+<!-- HERO -->
+<section class="me">
+    <img src="images/IMG_7862.jpeg" class="me-img" alt="foto me">
+
+    <div class="hero-content container">
+        <p class="portfolio-label">Portfolio</p>
+        <h1>ILENIA<br>SARRACINO</h1>
+        <a class="ig-link" href="#">→ https://www.instagram.com/sarracinoilenia</a>
+    </div>
+</section>
+
+<!-- INTRO -->
+<section class="intro" id="chi-sono">
+    <div class="container text-center">
+        <h2>Ciao, sono Ilenia!</h2>
+        <p class="intro-text">
+           Benvenuto/a nel mio spazio professionale!<br> Ho una formazione linguistica, maturata al liceo linguistico, che mi ha permesso di sviluppare una forte attenzione alla comunicazione, alla precisione e alla comprensione delle diverse culture. Amo curare ogni dettaglio e trasformare le idee in progetti concreti e ben strutturati. Nel mio percorso ho imparato che la lingua non è solo uno strumento, ma un ponte tra persone, creatività e opportunità.Questo portfolio raccoglie i miei lavori, le mie esperienze e la mia crescita professionale con uno sguardo sempre rivolto al miglioramento e alla collaborazione.<br>
+           
+        </p>
+        <button class="work-btn">work with me</button>
+    </div>
+</section>
+
+<!-- ORIGINI -->
+<section class="origini"> 
+    <div class="container">
+        <h3 class="section-title">Le mie origini</h3>
+
+        <div class="big-image">
+            <img src="images/WhatsApp Image 2025-11-14 at 16.32.53.jpeg" alt="Roma Vaticano">
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="images/WhatsApp Image 2025-11-14 at 16.32.25.jpeg" class="side-img" alt="">
+            </div>
+
+            <div class="col-md-6">
+                <p class="origini-text">
+                    Roma per me è più di una città: 
+                    è una parte delle mie radici e della 
+                    mia identità. Mia madre è romana, e grazie a lei ho 
+                    imparato ad apprezzare la sua energia, la sua profondità culturale e quel fascino unico che si percepisce in ogni angolo, tra le piazze vivaci e l’atmosfera senza tempo che la contraddistingue. Anche se non ci sono nata, sento Roma come una seconda casa. Ci torno spesso, per ritrovare l’atmosfera familiare dei suoi quartieri e lasciarmi ispirare dalla sua vivacità culturale. Ogni visita diventa un’occasione per riscoprire qualcosa di nuovo, tra tradizione e modernità, e per ritrovare quella connessione profonda che continua a influenzare il mio modo di vedere e vivere il mondo.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- STUDIO -->
+<section class="studio"> 
+    <div class="container">
+        <h3 class="section-title light">Dove e cosa studio</h3>
+
+        <div class="unirsm">
+            <img src="images/WhatsApp Image 2025-11-14 at 16.37.17.jpeg" class="studio-img" alt="">
+            Frequento il corso di Design presso l’Università degli Studi della Repubblica di San Marino (UniRSM). <br> Ho scelto questo percorso perché unisce creatività e progettazione, permettendomi di esplorare il design come linguaggio capace di comunicare idee, valori e identità. <br> in un ambiente dinamico e internazionale mi sta aiutando a sviluppare un approccio critico e consapevole al progetto, sempre attento all’estetica e alla funzionalità.
+        </div>
+    </div>
+</section>
+
+<!-- PROGETTI -->
+<section class="progetti"> 
+    <div class="container">
+        <h3 class="section-title">I miei progetti</h3>
+
+        <div class="row mt-3">
+
+            <div class="col-md-6 col-lg-3 project">
+                <img src="images/geometria.JPG" alt="">
+                <p>&gt; Modello 3D...</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3 project">
+                <img src="images/cappello.jpeg" alt="">
+                <p>&gt; Cappello personalizzato.</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3 project">
+                <img src="images/speakup.jpeg" alt="">
+                <p>&gt; Megafono…</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3 project">
+                <img src="images/libro.jpg" alt="">
+                <p>&gt; Bestiario.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <p class="footer-text">© 2025 – Portfolio Ilenia Sarracino</p>
+    </div>
+</footer>
+
+<!-- JAVASCRIPT FUNZIONANTE -->
+<script>
+const hamburger = document.getElementById('hamburger');
+const menuOverlay = document.getElementById('menu-overlay');
+const header = document.querySelector('.header');
+
+hamburger.addEventListener('click', () => {
+    menuOverlay.style.display = "flex";      
+    header.classList.add("hide-header");     
+});
+
+document.querySelectorAll('.menu-overlay a').forEach(link => {
+    link.addEventListener('click', () => {
+        menuOverlay.style.display = "none";
+        header.classList.remove("hide-header");
+    });
+});
+</script>
+
+</body>
+</html>
